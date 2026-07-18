@@ -29,7 +29,7 @@ document.getElementById('mainNav').addEventListener('click', (e) => {
 
 // Reveal-on-scroll
 const revealTargets = document.querySelectorAll(
-  '.stat-card, .axis-card, .change-card, .timeline-item, .nif-banner, .quote-block, .team-card'
+  '.stat-item, .axis-card, .change-card, .timeline-item, .nif-banner, .quote-block, .team-card'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
